@@ -1,0 +1,14 @@
+{
+  "name": "spawnleon/brain-games",
+  "description": "first project on hexlet",
+  "authors": [
+    {
+      "name": "Alexander Leonov",
+      "email": "spawnleon@gmail.com"
+    }
+  ],
+  "require": {},
+  "bin": [
+    "bin/brain-games"
+  ]
+}
