@@ -17,5 +17,6 @@
     "files": [
       "src/cli.php"
     ]
-  }
+  },
+  "minimum-stability": "dev"
 }
