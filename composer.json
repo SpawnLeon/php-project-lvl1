@@ -7,8 +7,15 @@
       "email": "spawnleon@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "wp-cli/php-cli-tools": "*"
+  },
   "bin": [
     "bin/brain-games"
-  ]
+  ],
+  "autoload": {
+    "files": [
+      "src/cli.php"
+    ]
+  }
 }
