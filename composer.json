@@ -7,9 +7,6 @@
       "email": "spawnleon@gmail.com"
     }
   ],
-  "require": {
-    "wp-cli/php-cli-tools": "@dev"
-  },
   "bin": [
     "bin/brain-games"
   ],
