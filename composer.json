@@ -17,5 +17,8 @@
     "files": [
       "src/cli.php"
     ]
+  },
+  "config": {
+    "bin-dir": "absolute"
   }
 }
