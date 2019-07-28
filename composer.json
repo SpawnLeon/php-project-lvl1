@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "wp-cli/php-cli-tools": "*"
+    "wp-cli/php-cli-tools": "@dev"
   },
   "bin": [
     "bin/brain-games"
