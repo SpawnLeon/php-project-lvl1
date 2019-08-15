@@ -19,8 +19,7 @@
     ]
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "@stable",
-    "phpmd/phpmd": "@stable"
+    "squizlabs/php_codesniffer": "@stable"
   },
   "scripts": {
     "phpcs": "phpcs"
