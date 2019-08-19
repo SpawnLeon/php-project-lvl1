@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "wp-cli/php-cli-tools": "@dev"
+    "wp-cli/php-cli-tools": "*"
   },
   "bin": [
     "bin/brain-games",
@@ -21,10 +21,9 @@
     ]
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "@dev"
+    "squizlabs/php_codesniffer": "*"
   },
   "scripts": {
     "phpcs": "phpcs"
-  },
-  "minimum-stability": "dev"
+  }
 }
