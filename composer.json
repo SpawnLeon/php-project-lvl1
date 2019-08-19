@@ -7,9 +7,6 @@
       "email": "spawnleon@gmail.com"
     }
   ],
-  "require": {
-    "wp-cli/php-cli-tools": "*"
-  },
   "bin": [
     "bin/brain-games",
     "bin/brain-even"
@@ -20,8 +17,11 @@
       "src/even.php"
     ]
   },
+  "require": {
+    "wp-cli/php-cli-tools": "^0.11.11"
+  },
   "require-dev": {
-    "squizlabs/php_codesniffer": "*"
+    "squizlabs/php_codesniffer": "3.*"
   },
   "scripts": {
     "phpcs": "phpcs"
