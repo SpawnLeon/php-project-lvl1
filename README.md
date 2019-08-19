@@ -12,3 +12,5 @@ or
 1. `$ make install`
 
 [![asciicast](https://asciinema.org/a/SBa60jWv****lnIcsGBNEH53vWgLm.svg)](https://asciinema.org/a/SBa60jWvlnIcsGBNEH53vWgLm)
+
+[![asciicast](https://asciinema.org/a/SBa60jWv****cB8LbkDi3lprsTk9vwCcg7fEu.svg)](https://asciinema.org/a/cB8LbkDi3lprsTk9vwCcg7fEu)
