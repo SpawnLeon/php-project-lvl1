@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Even;
+namespace BrainGames\Games\Even;
 
 use function \cli\line;
 use function \cli\prompt;
@@ -8,8 +8,8 @@ use function \cli\prompt;
 function run()
 {
     line('Welcome to the Brain Games!');
-    line('Answer "yes" if number even otherwise answer "no".');
-    $name = prompt('May I have your name? Sam');
+    line('What is the result of the expression?');
+    $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     for ($i = 0; $i < 3; $i++) {
         $randNumber = (int)rand(0, 100);
@@ -23,6 +23,6 @@ function run()
         } else {
             line("Correct!");
         }
-        line("Congratulations, %s!", $name);
     }
+    line("Congratulations, %s!", $name);
 }
